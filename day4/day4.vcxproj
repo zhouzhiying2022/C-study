@@ -24,6 +24,7 @@
     <ProjectGuid>{b34fc585-2c25-4c70-b839-12d30403cae2}</ProjectGuid>
     <RootNamespace>day4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>4.符号常量和浮点数</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
