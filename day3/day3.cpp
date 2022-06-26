@@ -1,6 +1,5 @@
 
 #include <iostream>
-#include <climits>
 
 int main()
 {
