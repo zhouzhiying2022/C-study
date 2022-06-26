@@ -15,12 +15,11 @@ int main()
 
 	const unsigned int strlen = 20;
 
-	unsigned char str[strlen + 1] = {};
+	unsigned char str[strlen + 1] = {};//无符号 char类型数组
 
-	generateString(str, 2);
+	generateString(str, 2);//取两个随机字母
 
 	cout << str << endl;
-
 
 }
 
