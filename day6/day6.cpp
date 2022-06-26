@@ -4,7 +4,7 @@ const unsigned char allChar[63] = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHI
 void generateString(unsigned char* dest, unsigned int len);
 
 
-#include <climits>
+
 
 #include <iostream>
 
@@ -19,6 +19,7 @@ int main()
 
 	generateString(str, 2);//取两个随机字母
 
+	cout << sizeof(str)<<endl;
 	cout << str << endl;
 
 }
